@@ -1,39 +1,78 @@
 * {
   font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
   text-align: center;
-}
-.header-list {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-  color: white;
-}
-h1 {
-  font-size: 70px;
-  font-weight: bold;
-}
-p {
-  font-size: 18px;
-}
-h2 {
-  font-size: 32px;
-  font-weight: bold;
-}
-h3 {
-  font-size: 23px;
-  font-weight: bold;
-}
-h4 {
-  font-size: 14px;
-}
-.designed-in-ny {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-  font-size: 23px;
-  font-weight: bold;
-  color: white;
+  opacity: 0.9;
 }
 
-.copyright {
-  font-size: 11px;
-  color: white;
-  background-color: dimgray;
-  text-align: left;
+.logo {
+  margin-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.header li {
+  color: seashell;
+  list-style: none;
+  display: inline-block;
+}
+
+.header li a {
+  margin:0;
+  border:0px;
+}
+
+.header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid white;
+}
+
+.header ul {
+  text-align: right;
+}
+
+.nav {
+  margin: 0 auto;
+}
+
+.middle {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tea-images img {
+  display: block;
+  height: 200px;
+  width: 300px;
+}
+.item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+}
+h2 {
+  display: block;
+}
+h4 {
+  display: block;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
 }
